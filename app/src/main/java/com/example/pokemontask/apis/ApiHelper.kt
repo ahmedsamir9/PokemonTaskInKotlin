@@ -1,8 +1,9 @@
 package com.example.pokemontask.apis
 
-import com.example.pokemontask.model.pokemons
+import com.example.pokemontask.model.pokemonList
+
 import kotlinx.coroutines.flow.Flow
 
 interface ApiHelper {
-    suspend fun getPokmons():Flow<pokemons>
+    suspend fun getPokmons():Flow<pokemonList>
 }

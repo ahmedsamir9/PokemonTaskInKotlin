@@ -15,4 +15,4 @@ data class PokemonData(
     var url: String?
 )
 
-typealias pokemons = List<PokemonData>?
+typealias pokemonList = List<PokemonData>?
