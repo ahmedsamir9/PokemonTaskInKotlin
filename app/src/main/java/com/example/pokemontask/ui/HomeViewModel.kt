@@ -1,4 +1,4 @@
-package com.example.pokemontask.ui.HomeFragment
+package com.example.pokemontask.ui
 
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
