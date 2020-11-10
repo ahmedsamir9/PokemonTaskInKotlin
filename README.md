@@ -11,6 +11,8 @@
 * Moshi
 * Dagger hilt for di
 * RecyclerView with DiffUtil
+* Single Source of truth 
 * Coroutines and Coroutines Flows 
+* [MVI VERSION](https://github.com/ahmedsamir9/PokemonTaskInKotlin/tree/Mvi)
 ## ScreenShoot :
 ![](pokemon.PNG)
