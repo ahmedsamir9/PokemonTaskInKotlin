@@ -8,7 +8,5 @@ import javax.inject.Inject
 
 class ApiHelperImp @Inject constructor(val endPoint: EndPoints):
     ApiHelper {
-    override suspend fun getPokmons(): Flow<pokemonList> = flow {
-        emit(endPoint.getPokmons().results)
+    override suspend fun getPokmons(): pokemonList =endPoint.getPokmons().results
     }
-}

@@ -17,5 +17,5 @@ interface PokemonDao {
     @Query("select * from PokemonData")
     suspend fun getPokemon():pokemonList
     @Query("select * from PokemonData")
-    fun getPokemons():Flow<pokemonList>
+    fun getPokemons():Flow<List<PokemonData>?>
 }
